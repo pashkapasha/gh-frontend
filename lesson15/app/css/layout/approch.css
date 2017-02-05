@@ -1,0 +1,77 @@
+section .approch {
+  background-color: #f3f3f3; }
+  section .approch .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto; }
+  section .approch .cont-header {
+    text-align: center; }
+  section .approch h2 {
+    margin-top: 50px; }
+  section .approch .line {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px; }
+  section .approch p {
+    display: block; }
+  section .approch .steps {
+    margin-top: 45px;
+    background-color: #ffffff;
+    height: 240px; }
+    section .approch .steps .step {
+      border: 2px solid #fff;
+      -webkit-border-radius: 2px;
+              border-radius: 2px;
+      background-color: #de2b24;
+      width: 105px;
+      height: 105px;
+      text-align: center; }
+      section .approch .steps .step span {
+        font-size: 50px;
+        color: #ffffff;
+        font-family: "Georgia";
+        text-align: center;
+        overflow: hidden; }
+      section .approch .steps .step p {
+        margin: 0 auto;
+        color: #ffffff;
+        font-family: "Georgia";
+        font-size: 20px;
+        overflow: hidden; }
+    section .approch .steps h4 {
+      padding-top: 72px; }
+    section .approch .steps p {
+      padding-bottom: 77px; }
+    section .approch .steps img {
+      float: left; }
+    section .approch .steps .app-cont p {
+      line-height: 2; }
+  section .approch .steps-2 {
+    margin-top: 45px;
+    background-color: #ffffff;
+    height: 240px; }
+    section .approch .steps-2 .step {
+      border: 2px solid #fff;
+      -webkit-border-radius: 2px;
+              border-radius: 2px;
+      background-color: #de2b24;
+      width: 105px;
+      height: 105px;
+      text-align: center; }
+      section .approch .steps-2 .step span {
+        font-size: 50px;
+        color: #ffffff;
+        font-family: "Georgia";
+        text-align: center;
+        overflow: hidden; }
+      section .approch .steps-2 .step p {
+        color: #ffffff;
+        font-family: "Georgia";
+        font-size: 20px;
+        overflow: hidden; }
+    section .approch .steps-2 h4 {
+      padding-top: 72px; }
+    section .approch .steps-2 img {
+      float: right; }
+    section .approch .steps-2 .app-cont p {
+      line-height: 2; }

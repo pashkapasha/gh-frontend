@@ -1,0 +1,87 @@
+.about {
+  background-color: #ececec; }
+  .about .h:after {
+    border-bottom: 1px solid black; }
+  .about .h h2 {
+    display: block;
+    text-align: center; }
+  .about h3 {
+    text-transform: uppercase; }
+  .about .about-blocks {
+    text-align: center; }
+    .about .about-blocks .services .hex, .about .about-blocks .bulb .hex, .about .about-blocks .time .hex {
+      width: 136px;
+      background: #fc0;
+      position: relative;
+      margin: 0 auto; }
+      .about .about-blocks .services .hex:before, .about .about-blocks .bulb .hex:before, .about .about-blocks .time .hex:before {
+        content: "";
+        position: absolute;
+        top: -50px;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-left: 68px solid transparent;
+        border-right: 68px solid transparent;
+        border-bottom: 50px solid #fc0; }
+      .about .about-blocks .services .hex:after, .about .about-blocks .bulb .hex:after, .about .about-blocks .time .hex:after {
+        content: "";
+        position: absolute;
+        bottom: -50px;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-left: 68px solid transparent;
+        border-right: 68px solid transparent;
+        border-top: 50px solid #fc0; }
+      .about .about-blocks .services .hex:hover, .about .about-blocks .bulb .hex:hover, .about .about-blocks .time .hex:hover {
+        background-color: #009bff; }
+        .about .about-blocks .services .hex:hover:before, .about .about-blocks .bulb .hex:hover:before, .about .about-blocks .time .hex:hover:before {
+          content: "";
+          position: absolute;
+          top: -50px;
+          left: 0;
+          width: 0;
+          height: 0;
+          border-left: 68px solid transparent;
+          border-right: 68px solid transparent;
+          border-bottom: 50px solid #009bff; }
+        .about .about-blocks .services .hex:hover:after, .about .about-blocks .bulb .hex:hover:after, .about .about-blocks .time .hex:hover:after {
+          content: "";
+          position: absolute;
+          bottom: -50px;
+          left: 0;
+          width: 0;
+          height: 0;
+          border-left: 68px solid transparent;
+          border-right: 68px solid transparent;
+          border-top: 50px solid #009bff; }
+        .about .about-blocks .services .hex:hover .icon-gear, .about .about-blocks .bulb .hex:hover .icon-gear, .about .about-blocks .time .hex:hover .icon-gear {
+          color: #6e6e6e; }
+      .about .about-blocks .services .hex .icon-gear, .about .about-blocks .bulb .hex .icon-gear, .about .about-blocks .time .hex .icon-gear, .about .about-blocks .services .hex .icon-sand-clock, .about .about-blocks .bulb .hex .icon-sand-clock, .about .about-blocks .time .hex .icon-sand-clock {
+        font-size: 52px;
+        text-align: center;
+        color: #ffffff; }
+      .about .about-blocks .services .hex .icon-bulb, .about .about-blocks .bulb .hex .icon-bulb, .about .about-blocks .time .hex .icon-bulb {
+        font-size: 52px;
+        text-align: center;
+        color: #ffffff; }
+    .about .about-blocks .bulb .hex {
+      margin-top: 40px;
+      margin-bottom: 20px; }
+      .about .about-blocks .bulb .hex:hover .icon-bulb {
+        color: #6e6e6e; }
+    .about .about-blocks .time .hex:hover .icon-sand-clock {
+      color: #6e6e6e; }
+    .about .about-blocks .content {
+      text-align: center; }
+      .about .about-blocks .content p {
+        width: 300px;
+        line-height: 2;
+        margin: 0 auto; }
+
+.line {
+  border-bottom: 2px solid #d1d1d1;
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 15px; }

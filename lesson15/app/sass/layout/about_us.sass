@@ -1,0 +1,115 @@
+.about
+  background-color: #ececec
+  .h
+    &:after
+      border-bottom: 1px solid black
+    h2
+      display: block
+      text-align: center
+  h3
+    text-transform: uppercase
+  .about-blocks
+    text-align: center
+    .services
+      .hex
+        width: 136px
+        background: #fc0
+        position: relative
+        margin: 0 auto
+        &:before
+          content: ""
+          position: absolute
+          top: -50px
+          left: 0
+          width: 0
+          height: 0
+          border-left: 68px solid transparent
+          border-right: 68px solid transparent
+          border-bottom: 50px solid #fc0
+        &:after
+            content: ""
+            position: absolute
+            bottom: -50px
+            left: 0
+            width: 0
+            height: 0
+            border-left: 68px solid transparent
+            border-right: 68px solid transparent
+            border-top: 50px solid #fc0
+        &:hover
+          background-color: #009bff
+          &:before
+            content: ""
+            position: absolute
+            top: -50px
+            left: 0
+            width: 0
+            height: 0
+            border-left: 68px solid transparent
+            border-right: 68px solid transparent
+            border-bottom: 50px solid #009bff
+          &:after
+            content: ""
+            position: absolute
+            bottom: -50px
+            left: 0
+            width: 0
+            height: 0
+            border-left: 68px solid transparent
+            border-right: 68px solid transparent
+            border-top: 50px solid #009bff
+          .icon-gear
+            color: #6e6e6e
+        .icon-gear, .icon-sand-clock
+          font-size: 52px
+          text-align: center
+          color: #ffffff
+        .icon-bulb
+          font-size: 52px
+          text-align: center
+          color: #ffffff
+    .bulb
+      @extend .services
+      .hex
+        margin-top: 40px
+        margin-bottom: 20px
+        &:hover
+          .icon-bulb
+            color: #6e6e6e
+    .time
+      @extend .services
+      .hex
+        &:hover
+          .icon-sand-clock
+            color: #6e6e6e
+    .content
+      text-align: center
+      p
+        width: 300px
+        line-height: 2
+        margin: 0 auto
+.line
+  border-bottom: 2px solid #d1d1d1
+  width: 100px
+  margin: 0 auto
+  margin-top: 15px
+
+
+
+
+
+
+
+
+
+
+
+  //clip-path: polygon(0 100%, 50% 0, 100% 100%)
+  //-webkit-clip-path: polygon(0 100%, 50% 0, 100% 100%)
+
+
+
+
+
+
+
