@@ -1,0 +1,75 @@
+:link, :visited {
+  text-decoration: none; }
+
+ul, ol {
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6, pre, code {
+  font-size: 1em; }
+
+ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fieldset, input {
+  margin: 0;
+  padding: 0; }
+
+a img, :link img, :visited img {
+  border: none; }
+
+address {
+  font-style: normal; }
+
+@media (min-width: 320px) {
+  body {
+    width: 100%; } }
+
+@media (min-width: 768px) {
+  body {
+    width: 100%; } }
+
+@media (min-width: 992px) {
+  body {
+    width: 100%; } }
+
+@media (min-width: 1200px) {
+  body {
+    width: 100%; } }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: #666; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: #666; }
+
+.buttons {
+  background-image: url(..//img/homer.jpg); }
+
+.form-page {
+  background-image: url(..//img/homer-2.jpg);
+  color: #ffffff; }
+
+.text-change {
+  background-color: #000000;
+  font-size: 20px;
+  color: #ffffff; }
+
+.text-change-2 {
+  background-color: #666;
+  font-size: 28px;
+  color: red; }
+
+.text-change-3 {
+  background-color: green;
+  font-size: 40px;
+  color: blue; }
+
+ul li {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  ul li button {
+    background-color: rgba(111, 84, 153, 0.52);
+    height: 45px;
+    font-size: 23px;
+    color: #fff;
+    -webkit-border-radius: 10px;
+            border-radius: 10px; }
