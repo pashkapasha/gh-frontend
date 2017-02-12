@@ -1,0 +1,14 @@
+.hero {
+  background-image: url(..//img/slider-bg.png); }
+  .hero .hero-content {
+    margin-top: 40px;
+    padding-right: 0;
+    padding-left: 0; }
+    .hero .hero-content h2, .hero .hero-content span {
+      font-family: 'Carrois Gothic', sans-serif;
+      font-size: 70px;
+      font-weight: 400;
+      text-transform: uppercase;
+      background-color: #ffea00; }
+  .hero .photos img {
+    position: absolute; }
